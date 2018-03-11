@@ -54,7 +54,9 @@ shinyUI(fluidPage(
                                                 One may choose different prediction points by using the carat slider
                                                 or choose different cut level to display the prediction & corresponding model for a different level of cut.
                                                 The system will use the already selected point for a new prediction based on newly selected cut.
-                                                "), p("Please note that Apply Changes button needs to be pressed for the changes to make effect."))
+                                                "), p("Please note that Apply Changes button needs to be pressed for the changes to make effect."),
+                                                
+                                                p("The code for the app may be found at:"), HTML("https://github.com/darykov/ddp"))
                         )
                 )
         )
